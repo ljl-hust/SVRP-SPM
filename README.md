@@ -4,8 +4,13 @@ There exist three sets of SVRP-SPM instances (RD01,RD02,RD03) and the generatd m
 type RD01 which has 20 customers. There are the following attributes in instance text:
 
 CUST NO.-------The mark number of customer(including depot, number 0 repersents depot).
+
 XCOORD.-------The geographical longitude of customers and depot.
+
 YCOORD.-------The geographical latitude of  customers and depot.
+
 DEMAND.-------The demand of customers(including depot, setting the demand of depot to be 0).
+
 TWNUM.-------The actual number of time windows(including depot, depot has only one time window).
+
 TWS.-------Time windows of customers and depot.
